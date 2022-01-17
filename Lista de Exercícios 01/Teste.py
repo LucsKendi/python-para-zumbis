@@ -1,7 +1,13 @@
-print("hello cachorro")
+nome = input('Digite seu nome:')
+print('Ola',nome)
+divida = 0
+compra = int(input('quanto voce gastou?'))
 
-a = 'banana'
-b = 'abacate'
+divida = divida + compra
 
-print('se eu comer', a, 'não posso comer',b )
+compra1 = int(input('quanto voce gastou?'))
+divida = divida + compra
 
+total = divida
+
+print('a divida total e', total)
